@@ -1,0 +1,95 @@
+/**
+ TODO(you): Write the CSS necessary for fivecolortools.html
+*/
+
+body {
+  text-align: center;
+  font-family: 'Alice', serif;
+}
+#head1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("header.png");
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.head1Title {
+  font-family: 'Miriam Libre', sans-serif;
+  color: white;
+  margin: 0;
+  max-width: 780px;
+  font-size: 55px;
+  font-weight: normal;
+}
+#pp img {
+  margin-top: -50px;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  width: 100px;
+  border-radius: 100%;
+}
+#ppText {
+  line-height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pName {
+  font-weight: bold;
+  font-size: 33px;
+}
+.update {
+  padding-bottom: 10px;
+  font-style: italic;
+  border-bottom: 2px solid #e6e6e6;
+  color: rgb(51, 51, 51);
+}
+#tool {
+  margin-top: 60px;
+  margin-left: 40px;
+  transform-origin: 0 0;
+  transform: translateZ(-2px) scale(3);
+}
+#toolMain div {
+  width: 66.67%;
+  text-align: left;
+  perspective: 1px;
+  perspective-origin: 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.toolHead {
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: rgb(51, 51, 51);
+  text-align: inherit;
+  font-style: normal;
+  font-size: 45px;
+  font-weight: bold;
+}
+.tooltext {
+  color: rgb(51, 51, 51);
+  line-height: 32px;
+  font-size: 23px;
+}
+quote{
+  font-style: italic;
+  font-size: 21px;
+  background-color: gold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.toolimg {
+  width: 100%;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+.link {
+  color: #42b4d6;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.link:hover {
+  text-decoration: underline;
+}
